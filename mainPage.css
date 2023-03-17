@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import 'color.css';
+@import 'font.css';
+
+/* 1.topTitle 2.mnFace 3.menuBtn 4.intro 5.inform 6.campImg */
+
+/* 1.topTitle */
+
+.topTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
