@@ -13,7 +13,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr minmax(700px, 3fr) 1fr;
-  grid-template-rows: 120px 300px 40px minmax(70px, auto) 300px 400px;
+  grid-template-rows: 120px 300px auto minmax(70px, auto) 300px 400px;
   grid-template-areas:
     'topTitle-l    topTitle-c     topTitle-r'
     '.             mnFace                  .'

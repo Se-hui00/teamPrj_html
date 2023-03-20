@@ -20,7 +20,34 @@
   grid-template-columns: 1fr 1fr;
 }
 
+/* 2-2.mnFace-r */
+.mnFace-r table {
+  background-color: yellow;
+  width: 100%;
+  border-top: 1px solid #444444;
+  border-collapse: collapse;
+}
+.mnFace-r tr {
+  display: block;
+  float: left;
+}
+.mnFace-r th,
+td {
+  display: block;
+}
+
 /* 3.menuBtn */
+.menuBtn .tab {
+  display: none;
+}
+.menuBtn label {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+}
+.menuBtn label:hover {
+  cursor: pointer;
+}
 
 /* 4.intro */
 
